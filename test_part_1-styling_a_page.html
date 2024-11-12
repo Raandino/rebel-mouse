@@ -4430,1189 +4430,1092 @@
 
 <body class="section-frontpage rm-non-critical-loaded">
     <nav class="menu-global">
-        <div class="main-menu-wrapper">
-            <div class="menu-global__search-form hide-tablet-and-desktop">
-                <form action="/search/">
-                    <button type="submit" class="menu-global__submit fa fa-search" value=""
-                        aria-label="Submit"></button>
-                    <input name="q" class="menu-global__text-input" type="text" placeholder="Search..."
-                        aria-label="Search">
-                </form>
-            </div>
-            <ul class="sections-list">
-                <li class="main-menu-item sections-list__item sections-list__item--home"><a href="/">Home</a></li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--None">
-                    <a href="/None">Home</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--popular">
-                    <a href="https://sebastian.rebelmouse.dev/popular/">Popular</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--demo2">
-                    <a href="https://sebastian.rebelmouse.dev/popular/demo2/">Demo</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--demo-3">
-                    <a href="https://sebastian.rebelmouse.dev/popular/demo-3/">Demo 3</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--amp-testing">
-                    <a href="https://sebastian.rebelmouse.dev/amp-testing/">AMP testing</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--test-section">
-                    <a href="https://sebastian.rebelmouse.dev/test-section/">Test section</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--new-section-name">
-                    <a href="https://sebastian.rebelmouse.dev/new-section-name/">new section name</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--isa-rae">
-                    <a href="https://sebastian.rebelmouse.dev/isa-rae/">Isa Rae</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--slideshow">
-                    <a href="https://sebastian.rebelmouse.dev/isa-rae/slideshow/">slideshow</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--featured-events">
-                    <a href="https://sebastian.rebelmouse.dev/featured-events/">Featured Events</a>
-                </li>
-
-                <li class="main-menu-item sections-list__item sections-list__item--events">
-                    <a href="https://sebastian.rebelmouse.dev/events/">Events</a>
-                </li>
-
-            </ul>
-            <div class="divider"></div>
-            <ul id="main-menu" class="main-menu loaded rm-preact">
-                <li class="main-menu-item main-menu-item--overview">
-                    <div><a class="link" href="/core/r_dashboard/posts" title="Dashboard"><span
-                                class="item-link">Dashboard</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--addPostIcon">
-                    <div><a class="link" href="/core/community/add_post" title="Add Post"><i
-                                class="ico main-content"></i><span class="item-link">Add Post</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--posts section"><span class="menu-parent-item"><span
-                            class="item-link">Posts</span>
-                        <ul class="mdc-list mainmenu-sub">
-                            <li class="main-menu-item main-menu-item--addPost">
-                                <div><a class="link" href="/core/community/add_post" title="Add Post"><i
-                                            class="ico main-content"></i><span class="item-link">Add Post</span></a>
-                                </div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--drafts">
-                                <div><a class="link" href="/core/r_dashboard/posts?status=5" title="Edit Drafts"><i
-                                            class="ico draft-post"></i><span class="item-link">Edit Drafts</span></a>
-                                </div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--scheduled_posts">
-                                <div><a class="link" href="/core/r_dashboard/posts?status=5&amp;period=future"
-                                        title="Scheduled Posts"><i class="ico draft-post"></i><span
-                                            class="item-link">Scheduled Posts</span></a></div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--posts_to_review">
-                                <div><a class="link" href="/core/dashboard/content_feeds/review?site="
-                                        title="For Review"><i class="ico draft-post"></i><span class="item-link">For
-                                            Review</span></a></div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--distribution_errors">
-                                <div><a class="link" href="/r/dashboard/distribution_errors"
-                                        title="Distribution Errors"><i class="ico draft-post"></i><span
-                                            class="item-link">Distribution Errors</span></a></div>
-                            </li>
-                        </ul>
-                    </span></li>
-                <li class="main-menu-item main-menu-item--designer_editor">
-                    <div><a class="link" href="/core/dashboard/designer" title="Layout &amp; Design"><span
-                                class="item-link">Layout &amp; Design</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--smart_links">
-                    <div><a class="link" href="/r/dashboard/smart_links" title="Smart Links"><span
-                                class="item-link">Smart Links</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--popular_keywords">
-                    <div><a class="link" href="/r/dashboard/popular_keywords" title="SEO Dashboard"><span
-                                class="item-link">SEO Dashboard</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--stats section"><span class="menu-parent-item"><span
-                            class="item-link">Stats</span>
-                        <ul class="mdc-list mainmenu-sub">
-                            <li class="main-menu-item main-menu-item--stats_overview">
-                                <div><a class="link" href="/core/dashboard/stats#overview" title="Overview"><i
-                                            class="ico stats"></i><span class="item-link">Overview</span></a></div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--stats_social">
-                                <div><a class="link" href="/core/dashboard/stats#social" title="Social Report"><i
-                                            class="ico stats"></i><span class="item-link">Social Report</span></a></div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--stats_top_content">
-                                <div><a class="link" href="/core/dashboard/stats#top-content" title="Top Content"><i
-                                            class="ico stats"></i><span class="item-link">Top Content</span></a></div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--stats_contributors">
-                                <div><a class="link" href="/core/dashboard/stats#contributors" title="Contributors"><i
-                                            class="ico stats"></i><span class="item-link">Contributors</span></a></div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--stats_seo">
-                                <div><a class="link" href="/core/dashboard/stats/seo?site=" title="SEO Report"><i
-                                            class="ico stats"></i><span class="item-link">SEO Report</span></a></div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--stats_rpm">
-                                <div><a class="link" href="/r/rpm/" title="Performance Monitoring"><i
-                                            class="ico stats"></i><span class="item-link">Performance
-                                            Monitoring</span></a></div>
-                            </li>
-                        </ul>
-                    </span></li>
-                <li class="main-menu-item main-menu-item--private_comments">
-                    <div><a class="link" href="/core/r_dashboard/comments/25022383/" title="Comments"><span
-                                class="item-link">Comments</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--sources">
-                    <div><a class="link" href="/core/dashboard/content_feeds/feeds" title="Content Feeds"><span
-                                class="item-link">Content Feeds</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--library">
-                    <div><a class="link" href="/r/dashboard/library/" title="Library"><span
-                                class="item-link">Library</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--my_page">
-                    <div><a class="link" href="/community/tati" title="My Page"><span class="item-link">My
-                                Page</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--account section"><span class="menu-parent-item"><span
-                            class="item-link">Account</span>
-                        <ul class="mdc-list mainmenu-sub">
-                            <li class="main-menu-item main-menu-item--users">
-                                <div><a class="link" href="/core/r_dashboard/users" title="Users"><i
-                                            class="ico settings"></i><span class="item-link">Users</span></a></div>
-                            </li>
-                        </ul>
-                    </span></li>
-                <li class="main-menu-item main-menu-item--sections">
-                    <div><a class="link" href="/core/r_dashboard/sections/" title="Sections"><span
-                                class="item-link">Sections</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--optimization section"><span class="menu-parent-item"><span
-                            class="item-link">Lost and Found</span>
-                        <ul class="mdc-list mainmenu-sub">
-                            <li class="main-menu-item main-menu-item--optimization_404_report">
-                                <div><a class="link" href="/core/r_dashboard/404_report?site=" title="404 Report"><span
-                                            class="item-link">404 Report</span></a></div>
-                            </li>
-                            <li class="main-menu-item main-menu-item--optimization_404_redirects">
-                                <div><a class="link" href="/core/r_dashboard/404_redirects?site="
-                                        title="404 Redirects"><span class="item-link">404 Redirects</span></a></div>
-                            </li>
-                        </ul>
-                    </span></li>
-                <li class="main-menu-item main-menu-item--login">
-                    <div><a class="link" href="/login" title="Log in"><span class="item-link">Log in</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--a_manager">
-                    <div><a class="link" href="/core/dashboard/a_manager/?site=25022383" title="Ad manager"><span
-                                class="item-link">Ad manager</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--shortcodes">
-                    <div><a class="link" href="/core/r_dashboard/shortcodes/" title="Shortcodes"><span
-                                class="item-link">Shortcodes</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--learning_portal">
-                    <div><a class="link" href="http://learning.rebelmouse.com" title="Learning Portal"><span
-                                class="item-link">Learning Portal</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--newsletter divider">
-                    <div><a class="link" href="/core/r_dashboard/newsletter/" title="Newsletter"><span
-                                class="item-link">Newsletter</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--badges">
-                    <div><a class="link" href="/core/dashboard/badges?site=25022383" title="Badges"><span
-                                class="item-link">Badges</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--bookmarklet">
-                    <div><a class="link" href="/core/dashboard/bookmarklet" title="Bookmarklet"><span
-                                class="item-link">Bookmarklet</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--help">
-                    <div><a class="link" href="http://learning.rebelmouse.com/category/rebelmouse-dcms"
-                            title="Help"><span class="item-link">Help</span></a></div>
-                </li>
-                <li class="main-menu-item main-menu-item--logout">
-                    <div><a class="link" href="/core/users/logout" title="Log out"><span class="item-link">Log
-                                out</span></a></div>
-                </li>
-            </ul>
-        </div>
+       <div class="main-menu-wrapper">
+          <div class="menu-global__search-form hide-tablet-and-desktop">
+             <form action="/search/">
+                <button type="submit" class="menu-global__submit fa fa-search" value=""
+                   aria-label="Submit"></button>
+                <input name="q" class="menu-global__text-input" type="text" placeholder="Search..."
+                   aria-label="Search">
+             </form>
+          </div>
+          <ul class="sections-list">
+             <li class="main-menu-item sections-list__item sections-list__item--home"><a href="/">Home</a></li>
+             <li class="main-menu-item sections-list__item sections-list__item--None">
+                <a href="/">Home</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--popular">
+                <a href="https://sebastian.rebelmouse.dev/popular/">Popular</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--demo2">
+                <a href="https://sebastian.rebelmouse.dev/popular/demo2/">Demo</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--demo-3">
+                <a href="https://sebastian.rebelmouse.dev/popular/demo-3/">Demo 3</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--amp-testing">
+                <a href="https://sebastian.rebelmouse.dev/amp-testing/">AMP testing</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--test-section">
+                <a href="https://sebastian.rebelmouse.dev/test-section/">Test section</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--new-section-name">
+                <a href="https://sebastian.rebelmouse.dev/new-section-name/">new section name</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--isa-rae">
+                <a href="https://sebastian.rebelmouse.dev/isa-rae/">Isa Rae</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--slideshow">
+                <a href="https://sebastian.rebelmouse.dev/isa-rae/slideshow/">slideshow</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--featured-events">
+                <a href="https://sebastian.rebelmouse.dev/featured-events/">Featured Events</a>
+             </li>
+             <li class="main-menu-item sections-list__item sections-list__item--events">
+                <a href="https://sebastian.rebelmouse.dev/events/">Events</a>
+             </li>
+          </ul>
+          <div class="divider"></div>
+          <ul id="main-menu" class="main-menu loaded rm-preact">
+             <li class="main-menu-item main-menu-item--overview">
+                <div><a class="link" href="/core/r_dashboard/posts" title="Dashboard"><span
+                   class="item-link">Dashboard</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--addPostIcon">
+                <div><a class="link" href="/core/community/add_post" title="Add Post"><i
+                   class="ico main-content"></i><span class="item-link">Add Post</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--posts section">
+                <span class="menu-parent-item">
+                   <span
+                      class="item-link">Posts</span>
+                   <ul class="mdc-list mainmenu-sub">
+                      <li class="main-menu-item main-menu-item--addPost">
+                         <div><a class="link" href="/core/community/add_post" title="Add Post"><i
+                            class="ico main-content"></i><span class="item-link">Add Post</span></a>
+                         </div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--drafts">
+                         <div><a class="link" href="/core/r_dashboard/posts?status=5" title="Edit Drafts"><i
+                            class="ico draft-post"></i><span class="item-link">Edit Drafts</span></a>
+                         </div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--scheduled_posts">
+                         <div><a class="link" href="/core/r_dashboard/posts?status=5&amp;period=future"
+                            title="Scheduled Posts"><i class="ico draft-post"></i><span
+                            class="item-link">Scheduled Posts</span></a></div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--posts_to_review">
+                         <div><a class="link" href="/core/dashboard/content_feeds/review?site="
+                            title="For Review"><i class="ico draft-post"></i><span class="item-link">For
+                            Review</span></a>
+                         </div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--distribution_errors">
+                         <div><a class="link" href="/r/dashboard/distribution_errors"
+                            title="Distribution Errors"><i class="ico draft-post"></i><span
+                            class="item-link">Distribution Errors</span></a></div>
+                      </li>
+                   </ul>
+                </span>
+             </li>
+             <li class="main-menu-item main-menu-item--designer_editor">
+                <div><a class="link" href="/core/dashboard/designer" title="Layout &amp; Design"><span
+                   class="item-link">Layout &amp; Design</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--smart_links">
+                <div><a class="link" href="/r/dashboard/smart_links" title="Smart Links"><span
+                   class="item-link">Smart Links</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--popular_keywords">
+                <div><a class="link" href="/r/dashboard/popular_keywords" title="SEO Dashboard"><span
+                   class="item-link">SEO Dashboard</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--stats section">
+                <span class="menu-parent-item">
+                   <span
+                      class="item-link">Stats</span>
+                   <ul class="mdc-list mainmenu-sub">
+                      <li class="main-menu-item main-menu-item--stats_overview">
+                         <div><a class="link" href="/core/dashboard/stats#overview" title="Overview"><i
+                            class="ico stats"></i><span class="item-link">Overview</span></a></div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--stats_social">
+                         <div><a class="link" href="/core/dashboard/stats#social" title="Social Report"><i
+                            class="ico stats"></i><span class="item-link">Social Report</span></a></div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--stats_top_content">
+                         <div><a class="link" href="/core/dashboard/stats#top-content" title="Top Content"><i
+                            class="ico stats"></i><span class="item-link">Top Content</span></a></div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--stats_contributors">
+                         <div><a class="link" href="/core/dashboard/stats#contributors" title="Contributors"><i
+                            class="ico stats"></i><span class="item-link">Contributors</span></a></div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--stats_seo">
+                         <div><a class="link" href="/core/dashboard/stats/seo?site=" title="SEO Report"><i
+                            class="ico stats"></i><span class="item-link">SEO Report</span></a></div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--stats_rpm">
+                         <div><a class="link" href="/r/rpm/" title="Performance Monitoring"><i
+                            class="ico stats"></i><span class="item-link">Performance
+                            Monitoring</span></a>
+                         </div>
+                      </li>
+                   </ul>
+                </span>
+             </li>
+             <li class="main-menu-item main-menu-item--private_comments">
+                <div><a class="link" href="/core/r_dashboard/comments/25022383/" title="Comments"><span
+                   class="item-link">Comments</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--sources">
+                <div><a class="link" href="/core/dashboard/content_feeds/feeds" title="Content Feeds"><span
+                   class="item-link">Content Feeds</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--library">
+                <div><a class="link" href="/r/dashboard/library/" title="Library"><span
+                   class="item-link">Library</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--my_page">
+                <div><a class="link" href="/community/tati" title="My Page"><span class="item-link">My
+                   Page</span></a>
+                </div>
+             </li>
+             <li class="main-menu-item main-menu-item--account section">
+                <span class="menu-parent-item">
+                   <span
+                      class="item-link">Account</span>
+                   <ul class="mdc-list mainmenu-sub">
+                      <li class="main-menu-item main-menu-item--users">
+                         <div><a class="link" href="/core/r_dashboard/users" title="Users"><i
+                            class="ico settings"></i><span class="item-link">Users</span></a></div>
+                      </li>
+                   </ul>
+                </span>
+             </li>
+             <li class="main-menu-item main-menu-item--sections">
+                <div><a class="link" href="/core/r_dashboard/sections/" title="Sections"><span
+                   class="item-link">Sections</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--optimization section">
+                <span class="menu-parent-item">
+                   <span
+                      class="item-link">Lost and Found</span>
+                   <ul class="mdc-list mainmenu-sub">
+                      <li class="main-menu-item main-menu-item--optimization_404_report">
+                         <div><a class="link" href="/core/r_dashboard/404_report?site=" title="404 Report"><span
+                            class="item-link">404 Report</span></a></div>
+                      </li>
+                      <li class="main-menu-item main-menu-item--optimization_404_redirects">
+                         <div><a class="link" href="/core/r_dashboard/404_redirects?site="
+                            title="404 Redirects"><span class="item-link">404 Redirects</span></a></div>
+                      </li>
+                   </ul>
+                </span>
+             </li>
+             <li class="main-menu-item main-menu-item--login">
+                <div><a class="link" href="/login" title="Log in"><span class="item-link">Log in</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--a_manager">
+                <div><a class="link" href="/core/dashboard/a_manager/?site=25022383" title="Ad manager"><span
+                   class="item-link">Ad manager</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--shortcodes">
+                <div><a class="link" href="/core/r_dashboard/shortcodes/" title="Shortcodes"><span
+                   class="item-link">Shortcodes</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--learning_portal">
+                <div><a class="link" href="http://learning.rebelmouse.com" title="Learning Portal"><span
+                   class="item-link">Learning Portal</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--newsletter divider">
+                <div><a class="link" href="/core/r_dashboard/newsletter/" title="Newsletter"><span
+                   class="item-link">Newsletter</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--badges">
+                <div><a class="link" href="/core/dashboard/badges?site=25022383" title="Badges"><span
+                   class="item-link">Badges</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--bookmarklet">
+                <div><a class="link" href="/core/dashboard/bookmarklet" title="Bookmarklet"><span
+                   class="item-link">Bookmarklet</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--help">
+                <div><a class="link" href="http://learning.rebelmouse.com/category/rebelmouse-dcms"
+                   title="Help"><span class="item-link">Help</span></a></div>
+             </li>
+             <li class="main-menu-item main-menu-item--logout">
+                <div><a class="link" href="/core/users/logout" title="Log out"><span class="item-link">Log
+                   out</span></a>
+                </div>
+             </li>
+          </ul>
+       </div>
     </nav>
     <div class="all-content-wrapper">
-        <page_card></page_card>
-        <div class="main v-sep">
-            <span class="js-brick-description hidden" data-name="Home"></span>
-            <div class="container top__static-container " id="sTop_Bar_0_0_9_0_0_1">
-                <div class="top__static-links " id="sTop_Bar_0_0_9_0_0_1_0">
-                    <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_0"><a class="color-inherit"
-                            href="/en/terms-of-service" target="">Terms of Service</a></div>
-                    <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_1"><a class="color-inherit"
-                            href="/en/privacy-policy" target="">Privacy Policy</a></div>
-                    <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_2"><a class="color-inherit"
-                            href="/en/trademark-and-copyright" target="">Trademark and Copyright</a></div>
-                    <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_3"><a class="color-inherit"
-                            href="/en/terms-and-conditions" target="">Terms &amp; Conditions</a></div>
-                    <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_4"><a class="color-inherit" href="/en/about-us"
-                            target="">About Us</a></div>
-                    <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_5"><a class="color-inherit"
-                            href="/en/advertise-on-reliabilityweb-com" target="">Contribute to Reliabilityweb.com</a>
-                    </div>
-                    <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_6"><a class="color-inherit"
-                            href="/en/steal-these-graphics" target="">Steal These Graphics</a></div>
-                </div><!-- User Code -->
-                <p class="language-container__selector">
-                    Visite nuestro sitio en <a href="/es/">Español</a></p>
+       <page_card></page_card>
+       <div class="main v-sep">
+          <span class="js-brick-description hidden" data-name="Home"></span>
+          <div class="container top__static-container " id="sTop_Bar_0_0_9_0_0_1">
+             <div class="top__static-links " id="sTop_Bar_0_0_9_0_0_1_0">
+                <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_0"><a class="color-inherit"
+                   href="https://www.rebelmouse.com/" target="">Terms of Service</a></div>
+                <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_1"><a class="color-inherit"
+                   href="https://www.rebelmouse.com/" target="">Privacy Policy</a></div>
+                <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_2"><a class="color-inherit"
+                   href="https://www.rebelmouse.com/" target="">Trademark and Copyright</a></div>
+                <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_3"><a class="color-inherit"
+                   href="https://www.rebelmouse.com/" target="">Terms &amp; Conditions</a></div>
+                <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_4"><a class="color-inherit" href="/"
+                   target="">About Us</a></div>
+                <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_5"><a class="color-inherit"
+                   href="https://www.rebelmouse.com/" target="">Contribute to Reliabilityweb.com</a>
+                </div>
+                <div class="text-element" id="sTop_Bar_0_0_9_0_0_1_0_6"><a class="color-inherit"
+                   href="https://www.rebelmouse.com/" target="">Steal These Graphics</a></div>
+             </div>
+             <!-- User Code -->
+             <p class="language-container__selector">
+                Visite nuestro sitio en Español | Español
+             </p>
+             <!-- End User Code -->
+          </div>
+          <div class="nav" id="sTop_Bar_0_0_9_0_0_2">
+             <div class="container nav-container" id="sTop_Bar_0_0_9_0_0_2_0">
+                <!-- User Code -->
+                <div class="topbar__hamburger">
+                   <div id="hamburger-menu" class="mobile-menu topbar-hamburger__menu"><i id="menu-icon"
+                      class="fa fa-bars"></i></div>
+                </div>
                 <!-- End User Code -->
-            </div>
-            <div class="nav" id="sTop_Bar_0_0_9_0_0_2">
-                <div class="container nav-container" id="sTop_Bar_0_0_9_0_0_2_0"><!-- User Code -->
-                    <div class="topbar__hamburger">
-                        <div id="hamburger-menu" class="mobile-menu topbar-hamburger__menu"><i id="menu-icon"
-                                class="fa fa-bars"></i></div>
-                    </div>
-                    <!-- End User Code -->
-                    <div class="logo" id="sTop_Bar_0_0_9_0_0_2_0_1">
-                        <div class="logo__images" id="sTop_Bar_0_0_9_0_0_2_0_1_0"><a id="sTop_Bar_0_0_9_0_0_2_0_1_0_0"
-                                class="display-block image-element" href="/" target="_self">
-                                <img class="image-element__img" alt="ReliabilityWeb Logo" width="66" height="64"
-                                    src="https://sebastian.rebelmouse.dev/media-library/reliabilityweb-logo.png?id=27568405&amp;width=66&amp;height=64">
-                            </a><a id="sTop_Bar_0_0_9_0_0_2_0_1_0_1" class="display-block image-element" href="/"
-                                target="_self">
-                                <img class="image-element__img" alt="ReliabilityWeb Logo" width="652" height="42"
-                                    src="https://sebastian.rebelmouse.dev/media-library/reliabilityweb-logo.png?id=27568406&amp;width=652&amp;height=42">
-                            </a></div><!-- User Code -->
-                        <h1 class="text-element heading-logo"><a href="/" class="color-inherit" target="">A Culture of
-                                Reliability<sup>®</sup></a></h1><!-- End User Code -->
-                    </div>
-                    <div class="nav-menu" id="sTop_Bar_0_0_9_0_0_2_0_2">
-                        <div class="search-widget" id="sTop_Bar_0_0_9_0_0_2_0_2_0">
-                            <form action="/search/" role="search"><input name="q"
-                                    class="js-search-input search-widget__input" type="text" placeholder="Search"
-                                    aria-label="Search"><button type="submit"
-                                    class="js-search-submit search-widget__submit fa fa-search" value=""
-                                    aria-label="Submit"></button></form>
-                        </div><!-- User Code -->
-                        <div class="topbar__hamburger"><a href="#" class="topbar-hamburger__menu" aria-haspopup="true"
-                                aria-label="Click to open Reliability menu"><svg class="hamburger-menu--icon" width="19"
-                                    height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M18.9688 12H0.981262V10H18.9688V12ZM18.9688 7H0.981262V5H18.9688V7ZM18.9688 2H0.981262V0H18.9688V2Z"
-                                        fill="#00344F"></path>
-                                </svg></a></div>
-                        <!-- End User Code --><!-- User Code --><a
-                            class="topbar__explore">Explore</a><!-- End User Code --><!-- User Code --><a
-                            href="/en/subscribe/" class="btn">Subscribe</a><!-- End User Code -->
-                    </div><!-- User Code -->
-                    <div class="mobile-menu mobile__search"><img class="search-icon__mobile" alt="search"
-                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxOCAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNC41ODI2IDEyLjM4MDlMMTcuNzI4NyAxNS41MjM2QzE4LjA0NTQgMTUuODYxIDE4LjA0NTQgMTYuMzg4MyAxNy43MDc1IDE2Ljc0NjlDMTcuNTU5NyAxNi45MTU2IDE3LjM0ODYgMTcgMTcuMTE2MyAxN0MxNi45MDUyIDE3IDE2LjY5NCAxNi45MTU2IDE2LjUyNTEgMTYuNzQ2OUwxMy4zNzkgMTMuNjA0MkMxMi4wMjc3IDE0LjY3OTkgMTAuMzM4NSAxNS4yNzA1IDguNjA3MTMgMTUuMjcwNUM2LjU1OTAxIDE1LjI3MDUgNC42Mzc1NyAxNC40NjkgMy4yMDE3OCAxMy4wMzQ3QzEuNzY1OTggMTEuNTc5NCAwLjk2MzYyMyA5LjY4MTE0IDAuOTYzNjIzIDcuNjM1MjRDMC45NjM2MjMgNS41ODkzMyAxLjc2NTk4IDMuNjY5OTggMy4yMDE3OCAyLjIzNTczQzQuNjU4NjkgMC44MDE0ODkgNi41NTkwMSAwIDguNjA3MTMgMEMxMC42NTUyIDAgMTIuNTc2NyAwLjgwMTQ4OSAxNC4wMTI1IDIuMjM1NzNDMTYuNzU3NCA0Ljk1NjU4IDE2Ljk4OTYgOS4zODU4NiAxNC41ODI2IDEyLjM4MDlaTTEyLjgzMDEgMTEuODExM0MxMy45NDkyIDEwLjY5MzUgMTQuNTYxNSA5LjE5NTk0IDE0LjU2MTUgNy42MTQwNUMxNC41NjE1IDYuMDMyMTcgMTMuOTQ5MiA0LjUzNDY1IDEyLjgzMDEgMy40MTY3OEMxMS43MTEgMi4yOTg5MiAxMC4yMTE5IDEuNjg3MjYgOC42MjgyOSAxLjY4NzI2QzcuMDQ0NjkgMS42ODcyNiA1LjU0NTU1IDIuMjk4OTIgNC40MjY0NyAzLjQxNjc4QzMuMzA3MzkgNC41MzQ2NSAyLjY5NTA3IDYuMDMyMTcgMi42OTUwNyA3LjYxNDA1QzIuNjk1MDcgOS4xOTU5NCAzLjMwNzM5IDEwLjY5MzUgNC40MjY0NyAxMS44MTEzQzUuNTQ1NTUgMTIuOTI5MiA3LjA0NDY5IDEzLjU0MDkgOC42MjgyOSAxMy41NDA5QzEwLjIxMTkgMTMuNTQwOSAxMS43MTEgMTIuOTI5MiAxMi44MzAxIDExLjgxMTNaIiBmaWxsPSIjMTk1MjcwIi8+Cjwvc3ZnPgo=">
-                    </div><!-- End User Code -->
+                <div class="logo" id="sTop_Bar_0_0_9_0_0_2_0_1">
+                   <div class="logo__images" id="sTop_Bar_0_0_9_0_0_2_0_1_0"><a id="sTop_Bar_0_0_9_0_0_2_0_1_0_0"
+                      class="display-block image-element" href="https://www.rebelmouse.com/" target="_self">
+                      <img class="image-element__img" alt="ReliabilityWeb Logo" width="66" height="64"
+                         src="https://sebastian.rebelmouse.dev/media-library/reliabilityweb-logo.png?id=27568405&amp;width=66&amp;height=64">
+                      </a><a id="sTop_Bar_0_0_9_0_0_2_0_1_0_1" class="display-block image-element" href="https://www.rebelmouse.com/"
+                         target="_self">
+                      <img class="image-element__img" alt="ReliabilityWeb Logo" width="652" height="42"
+                         src="https://raandino.dev/i_want_to_be_a_rebel/reliabilityweb-logo.webp">
+                      </a>
+                   </div>
+                   <!-- User Code -->
+                   <h1 class="text-element heading-logo"><a href="https://www.rebelmouse.com/" class="color-inherit" target="">A Culture of
+                      Reliability<sup>®</sup></a>
+                   </h1>
+                   <!-- End User Code -->
                 </div>
-            </div>
-            <div class="ad-wrapper" id="sHome_0_0_4_0_0_2"><a id="sHome_0_0_4_0_0_2_0"
-                    class="display-block image-element">
-                    <img class="image-element__img" alt="ad" width="1093" height="135"
-                        src="https://sebastian.rebelmouse.dev/media-library/ad.png?id=33324182&amp;width=1093&amp;height=135">
-                </a></div>
-            <div class="home__wrapper" id="sHome_0_0_4_0_0_3">
-                <div class="home__featured-wrapper" id="sHome_0_0_4_0_0_3_0">
-                    <div class="mb-2 home__featured" id="sHome_0_0_4_0_0_3_0_0">
-                        <div class="module-headline">
-                            <h1 class="module-headline__text h1">
-                                Events
-                            </h1>
-                        </div>
-                        <div class="posts-custom posts-custom-section section-holder clearfix" data-block="section_1"
-                            data-format="posts-custom" data-source="e7b6c8c729b6fefebebe512373722721"
-                            data-source-type="page" data-source-unique="true" data-section-id=""
-                            data-is-reordable="false" data-using-stickers="false" data-has-more="true" data-attr-v="2"
-                            data-attr-posts_id="sHome_0_0_4_0_0_3_0_0" data-attr-source_unique="true"
-                            data-attr-without_current="true" data-attr-layout_quality="1"
-                            data-attr-node_id="/root/blocks/block[home]/abtests/abtest[1]/element_wrapper[2]/element_wrapper[1]/posts-"
-                            data-attr-source="filtered" data-attr-use_tag_image_for_lead_media="true"
-                            data-attr-limit="5" data-attr-order="manual"
-                            data-attr-from_regular_sections="featured-event,featured-events"
-                            data-attr-headline_text="Events" data-attr-element_classes="home__featured"
-                            data-attr-layout_section="top"
-                            data-attr-all_element_order="section,custom_field_custom_field-event_date,headline,subheadline,author,community_name,date,date_modified,badges,badges_sponsored,photo_credit,photo_caption,body,snark_line,page_views,post_shares,follow_button,community_comments,like_button,source_link,collection_button,tags,primary_tag,main_author,all_sections,product_prices,product_vendor,product_buy_link,words_count,time_to_read,site_field_test,custom_field_ratings_ease_of_use,custom_field_supply,custom_field_datetime,custom_field_ratings_body,custom_field_tools,custom_field_rarting_image_link,custom_field_NewsletterPromoLink2,custom_field_timetocomplete,custom_field_lessons_chops,custom_field_estimatedcost,custom_field_NewsletterPromoLink1,custom_field_ratings_image,custom_field_brand,custom_field_overall_rating,custom_field_totalcost,custom_field_ratings_pros,custom_field_lessons_Theory,custom_field_how-totip,custom_field_lessons_pdf,custom_field_numberofsteps,custom_field_tool,custom_field_lessons_overview,custom_field_howtotip,custom_field_ratings_playability,custom_field_booleano,custom_field_ratings_price,custom_field_ratings_cons,custom_field_totaltime,custom_field_complexitylevel,custom_field_product_name,custom_field_lessons_style,custom_field_ratings_tones,custom_field_Sponsor,custom_field_ratings_value,custom_field_ratings_build_design,custom_field_custom_fieldlocation"
-                            data-attr-layout_custom_field_custom_field-event_date="bottom"
-                            data-attr-layout_headline="bottom" data-attr-layout_all_image_crop="4x3"
-                            data-attr-layout_all_headline_tag="h2" data-attr-layout_all_subheadline_tag="h3"
-                            data-attr-format="posts-custom" data-attr-source_site="parent_site">
-                            <div class="posts-wrapper clearfix">
-
-                                <div class="widget post-section--featured-events" elid="2659626063"
-                                    data-category="Featured Events">
-                                    <article elid="2659626063" data-frozen-sections="[]"
-                                        class="clearfix page-article sm-mb-1 quality-HD post-2659626063">
-                                        <div class="row px10">
-                                            <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
-                                                <div class="widget__body clearfix sm-mt-1">
-
-
-                                                    <a class="widget__section js-load-brick-on-click rm-stats-tracked"
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/">Featured
-                                                        Events</a>
-
-                                                </div>
-                                                <div class="widget__head"><a
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626063"
-                                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
-                                                            alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
-                                                            src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMyNDI3NS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTcxMjI4MTQ3N30.juiPTa6NQgLuFpObvlEmbqlHg-qWySqmHz2zpWJ-pm0/img.png?width=219&amp;height=164&amp;quality=80&amp;coordinates=151%2C0%2C152%2C0"
-                                                            style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                            width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                </div>
-                                                <div class="widget__body clearfix sm-mt-1">
-                                                    
-
-                                                    <h2 class="widget__headline h2">
-
-                                                        <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                            href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626063"
-                                                            aria-label="January 1 - December 31, 2021" data-type="text">
-                                                            January 1 - December 31, 2021
-                                                        </a>
-
-                                                    </h2>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                    </article>
-                                    <div class="user-prefs">
-                                        <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
-                                                <i class="material-icons">edit</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Scheduling"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">share</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Copy"
-                                                data-tab-id="stats">
-                                                <i class="icons--social"></i>
-                                            </span><span class="hover-menu editor-tab " title="Stats"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">trending_up</i>
-                                            </span></div>
-                                    </div>
-                                </div>
-
-                                <div class="widget post-section--featured-events" elid="2659626071"
-                                    data-category="Featured Events">
-                                    <article elid="2659626071" data-frozen-sections="[]"
-                                        class="clearfix page-article sm-mb-1 quality-HD post-2659626071">
-                                        <div class="row px10">
-                                            <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
-                                                <div class="widget__body clearfix sm-mt-1">
-
-
-                                                    <a class="widget__section js-load-brick-on-click rm-stats-tracked"
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/">Featured
-                                                        Events</a>
-
-                                                </div>
-                                                <div class="widget__head"><a
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626071"
-                                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
-                                                            alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
-                                                            src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMyNDI3Ni9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY5Njc5Njc4OX0.Z9JKkFI3Ml3f8JDZS2Fw4S6sjaP3Rhk805G3teJN-XM/img.png?width=219&amp;height=164&amp;quality=80&amp;coordinates=151%2C0%2C152%2C0"
-                                                            style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                            width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                </div>
-                                                <div class="widget__body clearfix sm-mt-1">
-                                                    
-
-                                                    <h2 class="widget__headline h2">
-
-                                                        <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                            href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626071"
-                                                            aria-label="January 1 - December 31, 2021" data-type="text">
-                                                            January 1 - December 31, 2021
-                                                        </a>
-
-                                                    </h2>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </article>
-                                    <div class="user-prefs">
-                                        <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
-                                                <i class="material-icons">edit</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Scheduling"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">share</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Copy"
-                                                data-tab-id="stats">
-                                                <i class="icons--social"></i>
-                                            </span><span class="hover-menu editor-tab " title="Stats"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">trending_up</i>
-                                            </span></div>
-                                    </div>
-                                </div>
-
-                                <div class="widget post-section--featured-events" elid="2659626070"
-                                    data-category="Featured Events">
-                                    <article elid="2659626070" data-frozen-sections="[]"
-                                        class="clearfix page-article sm-mb-1 quality-HD post-2659626070">
-                                        <div class="row px10">
-                                            <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
-                                                <div class="widget__body clearfix sm-mt-1">
-
-
-                                                    <a class="widget__section js-load-brick-on-click rm-stats-tracked"
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/">Featured
-                                                        Events</a>
-
-                                                </div>
-                                                <div class="widget__head"><a
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626070"
-                                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
-                                                            alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
-                                                            src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMTYxMy9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTcxMDYxOTU3N30.PW1hMdZMUJ1CfqIJveNE5IGCy6z0sY0K0GcAdN_oJA4/img.png?width=219&amp;height=164&amp;quality=80&amp;coordinates=102%2C0%2C102%2C0"
-                                                            style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                            width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                </div>
-                                                <div class="widget__body clearfix sm-mt-1">
-                                                    
-
-                                                    <h2 class="widget__headline h2">
-
-                                                        <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                            href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626070"
-                                                            aria-label="January 1 - December 31, 2021" data-type="text">
-                                                            January 1 - December 31, 2021
-                                                        </a>
-
-                                                    </h2>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </article>
-                                    <div class="user-prefs">
-                                        <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
-                                                <i class="material-icons">edit</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Scheduling"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">share</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Copy"
-                                                data-tab-id="stats">
-                                                <i class="icons--social"></i>
-                                            </span><span class="hover-menu editor-tab " title="Stats"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">trending_up</i>
-                                            </span></div>
-                                    </div>
-                                </div>
-
-                                <div class="widget post-section--featured-events" elid="2659626069"
-                                    data-category="Featured Events">
-                                    <article elid="2659626069" data-frozen-sections="[]"
-                                        class="clearfix page-article sm-mb-1 quality-HD post-2659626069">
-                                        <div class="row px10">
-                                            <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
-                                                <div class="widget__body clearfix sm-mt-1">
-
-
-                                                    <a class="widget__section js-load-brick-on-click rm-stats-tracked"
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/">Featured
-                                                        Events</a>
-
-                                                </div>
-                                                <div class="widget__head"><a
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626069"
-                                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
-                                                            alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
-                                                            src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMyNDI3Ny9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTczMjQ0NDE4Nn0.GTgxJHVjrJRx8GfK5_2MR7HC4l339cK7j2PUvnE0Hvs/img.png?width=219&amp;height=164&amp;quality=80&amp;coordinates=151%2C0%2C152%2C0"
-                                                            style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                            width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                </div>
-                                                <div class="widget__body clearfix sm-mt-1">
-                                                    
-
-                                                    <h2 class="widget__headline h2">
-
-                                                        <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                            href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626069"
-                                                            aria-label="January 1 - December 31, 2021" data-type="text">
-                                                            January 1 - December 31, 2021
-                                                        </a>
-
-                                                    </h2>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </article>
-                                    <div class="user-prefs">
-                                        <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
-                                                <i class="material-icons">edit</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Scheduling"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">share</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Copy"
-                                                data-tab-id="stats">
-                                                <i class="icons--social"></i>
-                                            </span><span class="hover-menu editor-tab " title="Stats"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">trending_up</i>
-                                            </span></div>
-                                    </div>
-                                </div>
-
-                                <div class="widget post-section--featured-events" elid="2659626067"
-                                    data-category="Featured Events">
-                                    <article elid="2659626067" data-frozen-sections="[]"
-                                        class="clearfix page-article sm-mb-1 quality-HD post-2659626067">
-                                        <div class="row px10">
-                                            <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
-                                                <div class="widget__body clearfix sm-mt-1">
-
-
-                                                    <a class="widget__section js-load-brick-on-click rm-stats-tracked"
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/">Featured
-                                                        Events</a>
-
-                                                </div>
-                                                <div class="widget__head"><a
-                                                        href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626067"
-                                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
-                                                            alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
-                                                            src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMTYxNC9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTcwMTM3ODYxNH0.b1ocIS-DbyUdkOYRgUMqYCcO5OUZjBOAfC9zyRcKtVQ/img.png?width=219&amp;height=164&amp;quality=80&amp;coordinates=102%2C0%2C102%2C0"
-                                                            style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                            width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                </div>
-                                                <div class="widget__body clearfix sm-mt-1">
-                                                    
-
-                                                    <h2 class="widget__headline h2">
-
-                                                        <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                            href="https://sebastian.rebelmouse.dev/featured-events/featured-event-normal-test-2659626067"
-                                                            aria-label="January 1 - December 31, 2021" data-type="text">
-                                                            January 1 - December 31, 2021
-                                                        </a>
-
-                                                    </h2>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </article>
-                                    <div class="user-prefs">
-                                        <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
-                                                <i class="material-icons">edit</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Scheduling"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">share</i>
-                                            </span><span class="hover-menu editor-tab " title="Social Copy"
-                                                data-tab-id="stats">
-                                                <i class="icons--social"></i>
-                                            </span><span class="hover-menu editor-tab " title="Stats"
-                                                data-tab-id="social_scheduling">
-                                                <i class="material-icons">trending_up</i>
-                                            </span></div>
-                                    </div>
-                                </div>
+                <div class="nav-menu" id="sTop_Bar_0_0_9_0_0_2_0_2">
+                   <div class="search-widget" id="sTop_Bar_0_0_9_0_0_2_0_2_0">
+                      <form action="/search/" role="search"><input name="q"
+                         class="js-search-input search-widget__input" type="text" placeholder="Search"
+                         aria-label="Search"><button type="submit"
+                         class="js-search-submit search-widget__submit fa fa-search" value=""
+                         aria-label="Submit"></button></form>
+                   </div>
+                   <!-- User Code -->
+                   <div class="topbar__hamburger">
+                      <a href="#" class="topbar-hamburger__menu" aria-haspopup="true"
+                         aria-label="Click to open Reliability menu">
+                         <svg class="hamburger-menu--icon" width="19"
+                            height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                               d="M18.9688 12H0.981262V10H18.9688V12ZM18.9688 7H0.981262V5H18.9688V7ZM18.9688 2H0.981262V0H18.9688V2Z"
+                               fill="#00344F"></path>
+                         </svg>
+                      </a>
+                   </div>
+                   <!-- End User Code --><!-- User Code --><a
+                      class="topbar__explore">Explore</a><!-- End User Code --><!-- User Code --><a
+                      href="https://www.rebelmouse.com/" class="btn">Subscribe</a><!-- End User Code -->
+                </div>
+                <!-- User Code -->
+                <div class="mobile-menu mobile__search"><img class="search-icon__mobile" alt="search"
+                   src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxOCAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNC41ODI2IDEyLjM4MDlMMTcuNzI4NyAxNS41MjM2QzE4LjA0NTQgMTUuODYxIDE4LjA0NTQgMTYuMzg4MyAxNy43MDc1IDE2Ljc0NjlDMTcuNTU5NyAxNi45MTU2IDE3LjM0ODYgMTcgMTcuMTE2MyAxN0MxNi45MDUyIDE3IDE2LjY5NCAxNi45MTU2IDE2LjUyNTEgMTYuNzQ2OUwxMy4zNzkgMTMuNjA0MkMxMi4wMjc3IDE0LjY3OTkgMTAuMzM4NSAxNS4yNzA1IDguNjA3MTMgMTUuMjcwNUM2LjU1OTAxIDE1LjI3MDUgNC42Mzc1NyAxNC40NjkgMy4yMDE3OCAxMy4wMzQ3QzEuNzY1OTggMTEuNTc5NCAwLjk2MzYyMyA5LjY4MTE0IDAuOTYzNjIzIDcuNjM1MjRDMC45NjM2MjMgNS41ODkzMyAxLjc2NTk4IDMuNjY5OTggMy4yMDE3OCAyLjIzNTczQzQuNjU4NjkgMC44MDE0ODkgNi41NTkwMSAwIDguNjA3MTMgMEMxMC42NTUyIDAgMTIuNTc2NyAwLjgwMTQ4OSAxNC4wMTI1IDIuMjM1NzNDMTYuNzU3NCA0Ljk1NjU4IDE2Ljk4OTYgOS4zODU4NiAxNC41ODI2IDEyLjM4MDlaTTEyLjgzMDEgMTEuODExM0MxMy45NDkyIDEwLjY5MzUgMTQuNTYxNSA5LjE5NTk0IDE0LjU2MTUgNy42MTQwNUMxNC41NjE1IDYuMDMyMTcgMTMuOTQ5MiA0LjUzNDY1IDEyLjgzMDEgMy40MTY3OEMxMS43MTEgMi4yOTg5MiAxMC4yMTE5IDEuNjg3MjYgOC42MjgyOSAxLjY4NzI2QzcuMDQ0NjkgMS42ODcyNiA1LjU0NTU1IDIuMjk4OTIgNC40MjY0NyAzLjQxNjc4QzMuMzA3MzkgNC41MzQ2NSAyLjY5NTA3IDYuMDMyMTcgMi42OTUwNyA3LjYxNDA1QzIuNjk1MDcgOS4xOTU5NCAzLjMwNzM5IDEwLjY5MzUgNC40MjY0NyAxMS44MTEzQzUuNTQ1NTUgMTIuOTI5MiA3LjA0NDY5IDEzLjU0MDkgOC42MjgyOSAxMy41NDA5QzEwLjIxMTkgMTMuNTQwOSAxMS43MTEgMTIuOTI5MiAxMi44MzAxIDExLjgxMTNaIiBmaWxsPSIjMTk1MjcwIi8+Cjwvc3ZnPgo=">
+                </div>
+                <!-- End User Code -->
+             </div>
+          </div>
+          <div class="ad-wrapper" id="sHome_0_0_4_0_0_2"><a id="sHome_0_0_4_0_0_2_0"
+             class="display-block image-element">
+             <img class="image-element__img" alt="ad" width="1093" height="135"
+                src="https://raandino.dev/i_want_to_be_a_rebel/ad-image-desktop.webp">
+             </a>
+          </div>
+          <div class="home__wrapper" id="sHome_0_0_4_0_0_3">
+             <div class="home__featured-wrapper" id="sHome_0_0_4_0_0_3_0">
+                <div class="mb-2 home__featured" id="sHome_0_0_4_0_0_3_0_0">
+                   <div class="module-headline">
+                      <h1 class="module-headline__text h1">
+                         Events
+                      </h1>
+                   </div>
+                   <div class="posts-custom posts-custom-section section-holder clearfix" data-block="section_1"
+                      data-format="posts-custom" data-source="e7b6c8c729b6fefebebe512373722721"
+                      data-source-type="page" data-source-unique="true" data-section-id=""
+                      data-is-reordable="false" data-using-stickers="false" data-has-more="true" data-attr-v="2"
+                      data-attr-posts_id="sHome_0_0_4_0_0_3_0_0" data-attr-source_unique="true"
+                      data-attr-without_current="true" data-attr-layout_quality="1"
+                      data-attr-node_id="/root/blocks/block[home]/abtests/abtest[1]/element_wrapper[2]/element_wrapper[1]/posts-"
+                      data-attr-source="filtered" data-attr-use_tag_image_for_lead_media="true"
+                      data-attr-limit="5" data-attr-order="manual"
+                      data-attr-from_regular_sections="featured-event,featured-events"
+                      data-attr-headline_text="Events" data-attr-element_classes="home__featured"
+                      data-attr-layout_section="top"
+                      data-attr-all_element_order="section,custom_field_custom_field-event_date,headline,subheadline,author,community_name,date,date_modified,badges,badges_sponsored,photo_credit,photo_caption,body,snark_line,page_views,post_shares,follow_button,community_comments,like_button,source_link,collection_button,tags,primary_tag,main_author,all_sections,product_prices,product_vendor,product_buy_link,words_count,time_to_read,site_field_test,custom_field_ratings_ease_of_use,custom_field_supply,custom_field_datetime,custom_field_ratings_body,custom_field_tools,custom_field_rarting_image_link,custom_field_NewsletterPromoLink2,custom_field_timetocomplete,custom_field_lessons_chops,custom_field_estimatedcost,custom_field_NewsletterPromoLink1,custom_field_ratings_image,custom_field_brand,custom_field_overall_rating,custom_field_totalcost,custom_field_ratings_pros,custom_field_lessons_Theory,custom_field_how-totip,custom_field_lessons_pdf,custom_field_numberofsteps,custom_field_tool,custom_field_lessons_overview,custom_field_howtotip,custom_field_ratings_playability,custom_field_booleano,custom_field_ratings_price,custom_field_ratings_cons,custom_field_totaltime,custom_field_complexitylevel,custom_field_product_name,custom_field_lessons_style,custom_field_ratings_tones,custom_field_Sponsor,custom_field_ratings_value,custom_field_ratings_build_design,custom_field_custom_fieldlocation"
+                      data-attr-layout_custom_field_custom_field-event_date="bottom"
+                      data-attr-layout_headline="bottom" data-attr-layout_all_image_crop="4x3"
+                      data-attr-layout_all_headline_tag="h2" data-attr-layout_all_subheadline_tag="h3"
+                      data-attr-format="posts-custom" data-attr-source_site="parent_site">
+                      <div class="posts-wrapper clearfix">
+                         <div class="widget post-section--featured-events" elid="2659626063"
+                            data-category="Featured Events">
+                            <article elid="2659626063" data-frozen-sections="[]"
+                               class="clearfix page-article sm-mb-1 quality-HD post-2659626063">
+                               <div class="row px10">
+                                  <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <a class="widget__section js-load-brick-on-click rm-stats-tracked"
+                                           href="https://www.rebelmouse.com/">Featured
+                                        Events</a>
+                                     </div>
+                                     <div class="widget__head"><a
+                                        href="https://www.rebelmouse.com/"
+                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
+                                        alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
+                                        src="https://raandino.dev/i_want_to_be_a_rebel/featured-event.webp"
+                                        style="object-fit: cover;" class="rm-lazyloadable-image"
+                                        width="2000" height="1500" data-adjusted-src="true"></a>
+                                     </div>
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <h2 class="widget__headline h2">
+                                           <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                              href="https://www.rebelmouse.com/"
+                                              aria-label="January 1 - December 31, 2021" data-type="text">
+                                           January 1 - December 31, 2021
+                                           </a>
+                                        </h2>
+                                     </div>
+                                  </div>
+                               </div>
+                            </article>
+                            <div class="user-prefs">
+                               <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
+                                  <i class="material-icons">edit</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Scheduling"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">share</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Copy"
+                                     data-tab-id="stats">
+                                  <i class="icons--social"></i>
+                                  </span><span class="hover-menu editor-tab " title="Stats"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">trending_up</i>
+                                  </span>
+                               </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="home__container" id="sHome_0_0_4_0_0_3_1">
-                    <div class="home__events-wrapper" id="sHome_0_0_4_0_0_3_1_0">
-                        <div class="mb-2 home__events" id="sHome_0_0_4_0_0_3_1_0_0">
-                            <div class="posts-custom posts-custom-section section-holder clearfix"
-                                data-block="section_2" data-format="posts-custom"
-                                data-source="71a4c0b2d2a7adc10d49d18c3b030b0d" data-source-type="page"
-                                data-source-unique="true" data-section-id="" data-is-reordable="false"
-                                data-using-stickers="false" data-has-more="true" data-attr-v="2"
-                                data-attr-posts_id="sHome_0_0_4_0_0_3_1_0_0" data-attr-source_unique="true"
-                                data-attr-without_current="true" data-attr-layout_quality="1"
-                                data-attr-node_id="/root/blocks/block[home]/abtests/abtest[1]/element_wrapper[2]/element_wrapper[2]/element_wrapper/posts-"
-                                data-attr-source="filtered" data-attr-use_tag_image_for_lead_media="true"
-                                data-attr-limit="9" data-attr-order="manual"
-                                data-attr-from_regular_sections="featured-event,events" data-attr-headline_text=""
-                                data-attr-element_classes="home__events" data-attr-layout_headline="right"
-                                data-attr-layout_subheadline="right"
-                                data-attr-layout_custom_field_custom_field-event_date="left"
-                                data-attr-layout_custom_field_custom_fieldlocation="left"
-                                data-attr-layout_all_headline_tag="h2" data-attr-layout_all_subheadline_tag="h3"
-                                data-attr-layout_columns="1"
-                                data-attr-all_element_order="custom_field_custom_field-event_date,custom_field_custom_fieldlocation,headline,subheadline,section,author,community_name,date,date_modified,badges,badges_sponsored,photo_credit,photo_caption,body,snark_line,page_views,post_shares,follow_button,community_comments,like_button,source_link,collection_button,tags,primary_tag,main_author,all_sections,product_prices,product_vendor,product_buy_link,words_count,time_to_read,site_field_test,custom_field_ratings_ease_of_use,custom_field_supply,custom_field_datetime,custom_field_ratings_body,custom_field_tools,custom_field_rarting_image_link,custom_field_NewsletterPromoLink2,custom_field_timetocomplete,custom_field_lessons_chops,custom_field_estimatedcost,custom_field_NewsletterPromoLink1,custom_field_ratings_image,custom_field_brand,custom_field_overall_rating,custom_field_totalcost,custom_field_ratings_pros,custom_field_lessons_Theory,custom_field_how-totip,custom_field_lessons_pdf,custom_field_numberofsteps,custom_field_tool,custom_field_lessons_overview,custom_field_howtotip,custom_field_ratings_playability,custom_field_booleano,custom_field_ratings_price,custom_field_ratings_cons,custom_field_totaltime,custom_field_complexitylevel,custom_field_product_name,custom_field_lessons_style,custom_field_ratings_tones,custom_field_Sponsor,custom_field_ratings_value,custom_field_ratings_build_design"
-                                data-attr-data-rm-device-crops="true" data-attr-layout_all_image_crop="4x3"
-                                data-attr-layout_mobile_image_crop="4x3" data-attr-layout_desktop_image_crop="3x2"
-                                data-attr-format="posts-custom" data-attr-source_site="parent_site">
-                                <div class="posts-wrapper clearfix">
-
-
-
-                                    <div class="widget post-section--events" elid="2659626044" data-category="Events">
-                                        <article elid="2659626044" data-frozen-sections="[]"
-                                            class="clearfix page-article sm-mb-1 quality-SD post-2659626044">
-                                            <div class="row px10">
-                                                <div class="rm-col-left col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-                                                        <div class="custom-field-custom-field-event-date">January 1 2021
-                                                            - December 31 2021</div>
-                                                        <div class="custom-field-custom-fieldlocation">Marco Island,
-                                                            Florida, USA</div>
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-center col sm-mb-1"
-                                                    style="width:33.333333333333336%;">
-                                                    <div class="widget__head"><a
-                                                            href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626044"
-                                                            aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                            class="rm-stats-tracked"><img role="img"
-                                                                alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE1My9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE3MDQ1NDI5NDd9.Abx30sgY3s4si8iTGu-OZBM3x9dwV4MwSGCEIn2r3OU/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
-                                                                style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                                width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-right col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-
-                                                        <h2 class="widget__headline h2">
-
-                                                            <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                                href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626044"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                data-type="text">
-                                                                2021 - Reliabilityweb.com Certified Maintenance Manager
-                                                                (CMM) Workshops
-                                                            </a>
-
-                                                        </h2>
-                                                        <div class="widget__subheadline">
-                                                            <h3 class="widget__subheadline-text h3" data-type="text">
-                                                                <p>Conference</p>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script type="application/json" id="post-context-2659626044"
-                                                class="post-context post-context-2659626044">
-    {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
-</script>
-                                        </article>
-                                    </div>
-
-
-
-                                    <div class="widget post-section--events" elid="2659626045" data-category="Events">
-                                        <article elid="2659626045" data-frozen-sections="[]"
-                                            class="clearfix page-article sm-mb-1 quality-SD post-2659626045">
-                                            <div class="row px10">
-                                                <div class="rm-col-left col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-                                                        <div class="custom-field-custom-field-event-date">January 1 2021
-                                                            - December 31 2021</div>
-                                                        <div class="custom-field-custom-fieldlocation">Marco Island,
-                                                            Florida, USA</div>
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-center col sm-mb-1"
-                                                    style="width:33.333333333333336%;">
-                                                    <div class="widget__head"><a
-                                                            href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626045"
-                                                            aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                            class="rm-stats-tracked"><img role="img"
-                                                                alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE1Mi9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE2OTU5MDU4OTR9.A3jjhEqPmihM7OMxl6b8WAbJMhejzzap2T8zeWa-xf0/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
-                                                                style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                                width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-right col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-
-                                                        <h2 class="widget__headline h2">
-
-                                                            <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                                href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626045"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                data-type="text">
-                                                                2021 - Reliabilityweb.com Certified Maintenance Manager
-                                                                (CMM) Workshops
-                                                            </a>
-
-                                                        </h2>
-                                                        <div class="widget__subheadline">
-                                                            <h3 class="widget__subheadline-text h3" data-type="text">
-                                                                <p>Conference</p>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script type="application/json" id="post-context-2659626045"
-                                                class="post-context post-context-2659626045">
-    {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
-</script>
-                                        </article>
-                                    </div>
-
-
-
-                                    <div class="widget post-section--events" elid="2659626046" data-category="Events">
-                                        <article elid="2659626046" data-frozen-sections="[]"
-                                            class="clearfix page-article sm-mb-1 quality-SD post-2659626046">
-                                            <div class="row px10">
-                                                <div class="rm-col-left col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-                                                        <div class="custom-field-custom-field-event-date">January 1 2021
-                                                            - December 31 2021</div>
-                                                        <div class="custom-field-custom-fieldlocation">Marco Island,
-                                                            Florida, USA</div>
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-center col sm-mb-1"
-                                                    style="width:33.333333333333336%;">
-                                                    <div class="widget__head"><a
-                                                            href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626046"
-                                                            aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                            class="rm-stats-tracked"><img role="img"
-                                                                alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0Ny9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE2OTQ5NTQ0OTl9.W_YFPQn6XhlNTphcqstrjkns3t053EmYJG6SKlDejSc/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
-                                                                style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                                width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-right col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-
-                                                        <h2 class="widget__headline h2">
-
-                                                            <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                                href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626046"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                data-type="text">
-                                                                2021 - Reliabilityweb.com Certified Maintenance Manager
-                                                                (CMM) Workshops
-                                                            </a>
-
-                                                        </h2>
-                                                        <div class="widget__subheadline">
-                                                            <h3 class="widget__subheadline-text h3" data-type="text">
-                                                                <p>Conference</p>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script type="application/json" id="post-context-2659626046"
-                                                class="post-context post-context-2659626046">
-    {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
-</script>
-                                        </article>
-                                    </div>
-
-
-
-                                    <div class="widget post-section--events" elid="2659626047" data-category="Events">
-                                        <article elid="2659626047" data-frozen-sections="[]"
-                                            class="clearfix page-article sm-mb-1 quality-SD post-2659626047">
-                                            <div class="row px10">
-                                                <div class="rm-col-left col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-                                                        <div class="custom-field-custom-field-event-date">January 1 2021
-                                                            - December 31 2021</div>
-                                                        <div class="custom-field-custom-fieldlocation">Marco Island,
-                                                            Florida, USA</div>
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-center col sm-mb-1"
-                                                    style="width:33.333333333333336%;">
-                                                    <div class="widget__head"><a
-                                                            href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626047"
-                                                            aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                            class="rm-stats-tracked"><img role="img"
-                                                                alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0NS9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE3MzE3MTUxNDR9.ZaR_wjgkq7lis4H8q9MvmzF8Wz1WihBWyOGHN0Cwp_U/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
-                                                                style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                                width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-right col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-
-                                                        <h2 class="widget__headline h2">
-
-                                                            <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                                href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626047"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                data-type="text">
-                                                                2021 - Reliabilityweb.com Certified Maintenance Manager
-                                                                (CMM) Workshops
-                                                            </a>
-
-                                                        </h2>
-                                                        <div class="widget__subheadline">
-                                                            <h3 class="widget__subheadline-text h3" data-type="text">
-                                                                <p>Conference</p>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script type="application/json" id="post-context-2659626047"
-                                                class="post-context post-context-2659626047">
-    {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
-</script>
-                                        </article>
-                                    </div>
-
-
-
-                                    <div class="widget post-section--events" elid="2659626048" data-category="Events">
-                                        <article elid="2659626048" data-frozen-sections="[]"
-                                            class="clearfix page-article sm-mb-1 quality-SD post-2659626048">
-                                            <div class="row px10">
-                                                <div class="rm-col-left col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-                                                        <div class="custom-field-custom-field-event-date">January 1 2021
-                                                            - December 31 2021</div>
-                                                        <div class="custom-field-custom-fieldlocation">Marco Island,
-                                                            Florida, USA</div>
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-center col sm-mb-1"
-                                                    style="width:33.333333333333336%;">
-                                                    <div class="widget__head"><a
-                                                            href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626048"
-                                                            aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                            class="rm-stats-tracked"><img role="img"
-                                                                alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0NC9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE2ODM4NjM1MDF9.S9kqtmZWbn0volQtVWSOS1LbRxWYW5kkfgutZILw_Dw/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
-                                                                style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                                width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-right col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-
-                                                        <h2 class="widget__headline h2">
-
-                                                            <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                                href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626048"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                data-type="text">
-                                                                2021 - Reliabilityweb.com Certified Maintenance Manager
-                                                                (CMM) Workshops
-                                                            </a>
-
-                                                        </h2>
-                                                        <div class="widget__subheadline">
-                                                            <h3 class="widget__subheadline-text h3" data-type="text">
-                                                                <p>Conference</p>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script type="application/json" id="post-context-2659626048"
-                                                class="post-context post-context-2659626048">
-    {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
-</script>
-                                        </article>
-                                    </div>
-
-
-
-                                    <div class="widget post-section--events" elid="2659626049" data-category="Events">
-                                        <article elid="2659626049" data-frozen-sections="[]"
-                                            class="clearfix page-article sm-mb-1 quality-SD post-2659626049">
-                                            <div class="row px10">
-                                                <div class="rm-col-left col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-                                                        <div class="custom-field-custom-field-event-date">January 1 2021
-                                                            - December 31 2021</div>
-                                                        <div class="custom-field-custom-fieldlocation">Marco Island,
-                                                            Florida, USA</div>
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-center col sm-mb-1"
-                                                    style="width:33.333333333333336%;">
-                                                    <div class="widget__head"><a
-                                                            href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626049"
-                                                            aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                            class="rm-stats-tracked"><img role="img"
-                                                                alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMyNDIxNy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY4NzY5OTM5MH0.eHcbnM1remJLNh1IdX1ZCj5ozT3YHsb6QMG6q6bez6s/img.jpg?width=930&amp;height=696&amp;quality=80&amp;coordinates=357%2C0%2C251%2C0"
-                                                                style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                                width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-right col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-
-                                                        <h2 class="widget__headline h2">
-
-                                                            <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                                href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626049"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                data-type="text">
-                                                                2021 - Reliabilityweb.com Certified Maintenance Manager
-                                                                (CMM) Workshops
-                                                            </a>
-
-                                                        </h2>
-                                                        <div class="widget__subheadline">
-                                                            <h3 class="widget__subheadline-text h3" data-type="text">
-                                                                <p>Conference</p>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script type="application/json" id="post-context-2659626049"
-                                                class="post-context post-context-2659626049">
-    {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
-</script>
-                                        </article>
-                                    </div>
-
-
-
-                                    <div class="widget post-section--events" elid="2659626050" data-category="Events">
-                                        <article elid="2659626050" data-frozen-sections="[]"
-                                            class="clearfix page-article sm-mb-1 quality-SD post-2659626050">
-                                            <div class="row px10">
-                                                <div class="rm-col-left col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-                                                        <div class="custom-field-custom-field-event-date">January 1 2021
-                                                            - December 31 2021</div>
-                                                        <div class="custom-field-custom-fieldlocation">Marco Island,
-                                                            Florida, USA</div>
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-center col sm-mb-1"
-                                                    style="width:33.333333333333336%;">
-                                                    <div class="widget__head"><a
-                                                            href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626050"
-                                                            aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                            class="rm-stats-tracked"><img role="img"
-                                                                alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0My9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE3MDQ0MDg3MjV9.UskDqIkf0uyx7Y8t6kYQD_hSP12esxu8vF71dxbqw6w/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
-                                                                style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                                width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-right col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-
-                                                        <h2 class="widget__headline h2">
-
-                                                            <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                                href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626050"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                data-type="text">
-                                                                2021 - Reliabilityweb.com Certified Maintenance Manager
-                                                                (CMM) Workshops
-                                                            </a>
-
-                                                        </h2>
-                                                        <div class="widget__subheadline">
-                                                            <h3 class="widget__subheadline-text h3" data-type="text">
-                                                                <p>Conference</p>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script type="application/json" id="post-context-2659626050"
-                                                class="post-context post-context-2659626050">
-    {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
-</script>
-                                        </article>
-                                    </div>
-
-
-
-                                    <div class="widget post-section--events" elid="2659626051" data-category="Events">
-                                        <article elid="2659626051" data-frozen-sections="[]"
-                                            class="clearfix page-article sm-mb-1 quality-SD post-2659626051">
-                                            <div class="row px10">
-                                                <div class="rm-col-left col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-                                                        <div class="custom-field-custom-field-event-date">January 1 2021
-                                                            - December 31 2021</div>
-                                                        <div class="custom-field-custom-fieldlocation">Marco Island,
-                                                            Florida, USA</div>
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-center col sm-mb-1"
-                                                    style="width:33.333333333333336%;">
-                                                    <div class="widget__head"><a
-                                                            href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626051"
-                                                            aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                            class="rm-stats-tracked"><img role="img"
-                                                                alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0Mi9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE2OTcyMDMyMTZ9.oQ0WX-WGpzU6uM7jRiKJulAwbRaaEDEwxkP0K-DMb2o/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
-                                                                style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                                width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-right col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-
-                                                        <h2 class="widget__headline h2">
-
-                                                            <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                                href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626051"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                data-type="text">
-                                                                2021 - Reliabilityweb.com Certified Maintenance Manager
-                                                                (CMM) Workshops
-                                                            </a>
-
-                                                        </h2>
-                                                        <div class="widget__subheadline">
-                                                            <h3 class="widget__subheadline-text h3" data-type="text">
-                                                                <p>Conference</p>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script type="application/json" id="post-context-2659626051"
-                                                class="post-context post-context-2659626051">
-    {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
-</script>
-                                        </article>
-                                    </div>
-
-
-
-                                    <div class="widget post-section--events" elid="2659626001" data-category="Events">
-                                        <article elid="2659626001" data-frozen-sections="[]"
-                                            class="clearfix page-article sm-mb-1 quality-SD post-2659626001">
-                                            <div class="row px10">
-                                                <div class="rm-col-left col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-                                                        <div class="custom-field-custom-field-event-date">January 1 2021
-                                                            - December 31 2021</div>
-                                                        <div class="custom-field-custom-fieldlocation">Marco Island,
-                                                            Florida, USA</div>
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-center col sm-mb-1"
-                                                    style="width:33.333333333333336%;">
-                                                    <div class="widget__head"><a
-                                                            href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626001"
-                                                            aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                            class="rm-stats-tracked"><img role="img"
-                                                                alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjEzOC9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE3MzExNDgwMjJ9.JT1OMJRa9ApRnKFkdpoxpeOQlOmr5MPUoEJpTDAZX8U/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
-                                                                style="object-fit: cover;" class="rm-lazyloadable-image"
-                                                                width="2000" height="1500" data-adjusted-src="true"></a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="rm-col-right col" style="width:33.33333333333333%;">
-                                                    <div class="widget__body clearfix sm-mt-1">
-
-                                                        <h2 class="widget__headline h2">
-
-                                                            <a class="widget__headline-text custom-post-headline rm-stats-tracked"
-                                                                href="https://sebastian.rebelmouse.dev/events/2021-reliabilityweb-com-certified-maintenance-manager-cmm-workshops-2659626001"
-                                                                aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
-                                                                data-type="text">
-                                                                2021 - Reliabilityweb.com Certified Maintenance Manager
-                                                                (CMM) Workshops
-                                                            </a>
-
-                                                        </h2>
-                                                        <div class="widget__subheadline">
-                                                            <h3 class="widget__subheadline-text h3" data-type="text">
-                                                                <p>Conference</p>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script type="application/json" id="post-context-2659626001"
-                                                class="post-context post-context-2659626001">
-    {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
-</script>
-                                        </article>
-                                    </div>
-                                </div>
+                         </div>
+                         <div class="widget post-section--featured-events" elid="2659626071"
+                            data-category="Featured Events">
+                            <article elid="2659626071" data-frozen-sections="[]"
+                               class="clearfix page-article sm-mb-1 quality-HD post-2659626071">
+                               <div class="row px10">
+                                  <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <a class="widget__section js-load-brick-on-click rm-stats-tracked"
+                                           href="https://www.rebelmouse.com/">Featured
+                                        Events</a>
+                                     </div>
+                                     <div class="widget__head"><a
+                                        href="https://www.rebelmouse.com/"
+                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
+                                        alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
+                                        src="https://raandino.dev/i_want_to_be_a_rebel/featured-event.webp"
+                                        style="object-fit: cover;" class="rm-lazyloadable-image"
+                                        width="2000" height="1500" data-adjusted-src="true"></a>
+                                     </div>
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <h2 class="widget__headline h2">
+                                           <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                              href="https://www.rebelmouse.com/"
+                                              aria-label="January 1 - December 31, 2021" data-type="text">
+                                           January 1 - December 31, 2021
+                                           </a>
+                                        </h2>
+                                     </div>
+                                  </div>
+                               </div>
+                            </article>
+                            <div class="user-prefs">
+                               <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
+                                  <i class="material-icons">edit</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Scheduling"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">share</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Copy"
+                                     data-tab-id="stats">
+                                  <i class="icons--social"></i>
+                                  </span><span class="hover-menu editor-tab " title="Stats"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">trending_up</i>
+                                  </span>
+                               </div>
                             </div>
-
-
-
-
-
-                        </div>
-                    </div>
-
-                    <span class="js-brick-description hidden" data-name="Side Bar"></span>
-                    <div class="sidebar-wrapper" id="sSide_Bar_0_0_7_0_0_0"><a id="sSide_Bar_0_0_7_0_0_0_0"
-                            class="display-block image-element">
-                            <img class="image-element__img" alt="" width="450" height="375"
-                                src="https://sebastian.rebelmouse.dev/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMyNDE5Mi9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTcyODk2NTk4NX0.X9wi7rfRoo96ktIhpO552g0VJO6JbVd3AVss45-EqVU/image.png?width=450&amp;height=375">
-                        </a></div>
+                         </div>
+                         <div class="widget post-section--featured-events" elid="2659626070"
+                            data-category="Featured Events">
+                            <article elid="2659626070" data-frozen-sections="[]"
+                               class="clearfix page-article sm-mb-1 quality-HD post-2659626070">
+                               <div class="row px10">
+                                  <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <a class="widget__section js-load-brick-on-click rm-stats-tracked"
+                                           href="https://www.rebelmouse.com/">Featured
+                                        Events</a>
+                                     </div>
+                                     <div class="widget__head"><a
+                                        href="https://www.rebelmouse.com/"
+                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
+                                        alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
+                                        src="https://raandino.dev/i_want_to_be_a_rebel/featured-event-2.webp"
+                                        style="object-fit: cover;" class="rm-lazyloadable-image"
+                                        width="2000" height="1500" data-adjusted-src="true"></a>
+                                     </div>
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <h2 class="widget__headline h2">
+                                           <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                              href="https://www.rebelmouse.com/"
+                                              aria-label="January 1 - December 31, 2021" data-type="text">
+                                           January 1 - December 31, 2021
+                                           </a>
+                                        </h2>
+                                     </div>
+                                  </div>
+                               </div>
+                            </article>
+                            <div class="user-prefs">
+                               <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
+                                  <i class="material-icons">edit</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Scheduling"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">share</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Copy"
+                                     data-tab-id="stats">
+                                  <i class="icons--social"></i>
+                                  </span><span class="hover-menu editor-tab " title="Stats"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">trending_up</i>
+                                  </span>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="widget post-section--featured-events" elid="2659626069"
+                            data-category="Featured Events">
+                            <article elid="2659626069" data-frozen-sections="[]"
+                               class="clearfix page-article sm-mb-1 quality-HD post-2659626069">
+                               <div class="row px10">
+                                  <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <a class="widget__section js-load-brick-on-click rm-stats-tracked"
+                                           href="https://www.rebelmouse.com/">Featured
+                                        Events</a>
+                                     </div>
+                                     <div class="widget__head"><a
+                                        href="https://www.rebelmouse.com/"
+                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
+                                        alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
+                                        src="https://raandino.dev/i_want_to_be_a_rebel/featured-event.webp"
+                                        style="object-fit: cover;" class="rm-lazyloadable-image"
+                                        width="2000" height="1500" data-adjusted-src="true"></a>
+                                     </div>
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <h2 class="widget__headline h2">
+                                           <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                              href="https://www.rebelmouse.com/"
+                                              aria-label="January 1 - December 31, 2021" data-type="text">
+                                           January 1 - December 31, 2021
+                                           </a>
+                                        </h2>
+                                     </div>
+                                  </div>
+                               </div>
+                            </article>
+                            <div class="user-prefs">
+                               <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
+                                  <i class="material-icons">edit</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Scheduling"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">share</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Copy"
+                                     data-tab-id="stats">
+                                  <i class="icons--social"></i>
+                                  </span><span class="hover-menu editor-tab " title="Stats"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">trending_up</i>
+                                  </span>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="widget post-section--featured-events" elid="2659626067"
+                            data-category="Featured Events">
+                            <article elid="2659626067" data-frozen-sections="[]"
+                               class="clearfix page-article sm-mb-1 quality-HD post-2659626067">
+                               <div class="row px10">
+                                  <div class="rm-col-center col sm-mb-1" style="width:100.0%;">
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <a class="widget__section js-load-brick-on-click rm-stats-tracked"
+                                           href="https://www.rebelmouse.com/">Featured
+                                        Events</a>
+                                     </div>
+                                     <div class="widget__head"><a
+                                        href="https://www.rebelmouse.com/"
+                                        aria-label="January 1 - December 31, 2021" class="rm-stats-tracked"><img role="img"
+                                        alt="January 1 - December 31, 2021" aria-label="January 1 - December 31, 2021"
+                                        src="https://raandino.dev/i_want_to_be_a_rebel/featured-event-2.webp"
+                                        style="object-fit: cover;" class="rm-lazyloadable-image"
+                                        width="2000" height="1500" data-adjusted-src="true"></a>
+                                     </div>
+                                     <div class="widget__body clearfix sm-mt-1">
+                                        <h2 class="widget__headline h2">
+                                           <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                              href="https://www.rebelmouse.com/"
+                                              aria-label="January 1 - December 31, 2021" data-type="text">
+                                           January 1 - December 31, 2021
+                                           </a>
+                                        </h2>
+                                     </div>
+                                  </div>
+                               </div>
+                            </article>
+                            <div class="user-prefs">
+                               <div class="hover-menu-options"><span class="hover-menu edit " title="Edit">
+                                  <i class="material-icons">edit</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Scheduling"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">share</i>
+                                  </span><span class="hover-menu editor-tab " title="Social Copy"
+                                     data-tab-id="stats">
+                                  <i class="icons--social"></i>
+                                  </span><span class="hover-menu editor-tab " title="Stats"
+                                     data-tab-id="social_scheduling">
+                                  <i class="material-icons">trending_up</i>
+                                  </span>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
                 </div>
-            </div>
-        </div>
+             </div>
+             <div class="home__container" id="sHome_0_0_4_0_0_3_1">
+                <div class="home__events-wrapper" id="sHome_0_0_4_0_0_3_1_0">
+                   <div class="mb-2 home__events" id="sHome_0_0_4_0_0_3_1_0_0">
+                      <div class="posts-custom posts-custom-section section-holder clearfix"
+                         data-block="section_2" data-format="posts-custom"
+                         data-source="71a4c0b2d2a7adc10d49d18c3b030b0d" data-source-type="page"
+                         data-source-unique="true" data-section-id="" data-is-reordable="false"
+                         data-using-stickers="false" data-has-more="true" data-attr-v="2"
+                         data-attr-posts_id="sHome_0_0_4_0_0_3_1_0_0" data-attr-source_unique="true"
+                         data-attr-without_current="true" data-attr-layout_quality="1"
+                         data-attr-node_id="/root/blocks/block[home]/abtests/abtest[1]/element_wrapper[2]/element_wrapper[2]/element_wrapper/posts-"
+                         data-attr-source="filtered" data-attr-use_tag_image_for_lead_media="true"
+                         data-attr-limit="9" data-attr-order="manual"
+                         data-attr-from_regular_sections="featured-event,events" data-attr-headline_text=""
+                         data-attr-element_classes="home__events" data-attr-layout_headline="right"
+                         data-attr-layout_subheadline="right"
+                         data-attr-layout_custom_field_custom_field-event_date="left"
+                         data-attr-layout_custom_field_custom_fieldlocation="left"
+                         data-attr-layout_all_headline_tag="h2" data-attr-layout_all_subheadline_tag="h3"
+                         data-attr-layout_columns="1"
+                         data-attr-all_element_order="custom_field_custom_field-event_date,custom_field_custom_fieldlocation,headline,subheadline,section,author,community_name,date,date_modified,badges,badges_sponsored,photo_credit,photo_caption,body,snark_line,page_views,post_shares,follow_button,community_comments,like_button,source_link,collection_button,tags,primary_tag,main_author,all_sections,product_prices,product_vendor,product_buy_link,words_count,time_to_read,site_field_test,custom_field_ratings_ease_of_use,custom_field_supply,custom_field_datetime,custom_field_ratings_body,custom_field_tools,custom_field_rarting_image_link,custom_field_NewsletterPromoLink2,custom_field_timetocomplete,custom_field_lessons_chops,custom_field_estimatedcost,custom_field_NewsletterPromoLink1,custom_field_ratings_image,custom_field_brand,custom_field_overall_rating,custom_field_totalcost,custom_field_ratings_pros,custom_field_lessons_Theory,custom_field_how-totip,custom_field_lessons_pdf,custom_field_numberofsteps,custom_field_tool,custom_field_lessons_overview,custom_field_howtotip,custom_field_ratings_playability,custom_field_booleano,custom_field_ratings_price,custom_field_ratings_cons,custom_field_totaltime,custom_field_complexitylevel,custom_field_product_name,custom_field_lessons_style,custom_field_ratings_tones,custom_field_Sponsor,custom_field_ratings_value,custom_field_ratings_build_design"
+                         data-attr-data-rm-device-crops="true" data-attr-layout_all_image_crop="4x3"
+                         data-attr-layout_mobile_image_crop="4x3" data-attr-layout_desktop_image_crop="3x2"
+                         data-attr-format="posts-custom" data-attr-source_site="parent_site">
+                         <div class="posts-wrapper clearfix">
+                            <div class="widget post-section--events" elid="2659626044" data-category="Events">
+                               <article elid="2659626044" data-frozen-sections="[]"
+                                  class="clearfix page-article sm-mb-1 quality-SD post-2659626044">
+                                  <div class="row px10">
+                                     <div class="rm-col-left col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <div class="custom-field-custom-field-event-date">January 1 2021
+                                              - December 31 2021
+                                           </div>
+                                           <div class="custom-field-custom-fieldlocation">Marco Island,
+                                              Florida, USA
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-center col sm-mb-1"
+                                        style="width:33.333333333333336%;">
+                                        <div class="widget__head"><a
+                                           href="https://www.rebelmouse.com/"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           class="rm-stats-tracked"><img role="img"
+                                           alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE1My9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE3MDQ1NDI5NDd9.Abx30sgY3s4si8iTGu-OZBM3x9dwV4MwSGCEIn2r3OU/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
+                                           style="object-fit: cover;" class="rm-lazyloadable-image"
+                                           width="2000" height="1500" data-adjusted-src="true"></a>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-right col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <h2 class="widget__headline h2">
+                                              <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                                 href="https://www.rebelmouse.com/"
+                                                 aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                                 data-type="text">
+                                              2021 - Reliabilityweb.com Certified Maintenance Manager
+                                              (CMM) Workshops
+                                              </a>
+                                           </h2>
+                                           <div class="widget__subheadline">
+                                              <h3 class="widget__subheadline-text h3" data-type="text">
+                                                 <p>Conference</p>
+                                              </h3>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <script type="application/json" id="post-context-2659626044"
+                                     class="post-context post-context-2659626044">
+                                     {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
+                                  </script>
+                               </article>
+                            </div>
+                            <div class="widget post-section--events" elid="2659626045" data-category="Events">
+                               <article elid="2659626045" data-frozen-sections="[]"
+                                  class="clearfix page-article sm-mb-1 quality-SD post-2659626045">
+                                  <div class="row px10">
+                                     <div class="rm-col-left col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <div class="custom-field-custom-field-event-date">January 1 2021
+                                              - December 31 2021
+                                           </div>
+                                           <div class="custom-field-custom-fieldlocation">Marco Island,
+                                              Florida, USA
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-center col sm-mb-1"
+                                        style="width:33.333333333333336%;">
+                                        <div class="widget__head"><a
+                                           href="https://www.rebelmouse.com/"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           class="rm-stats-tracked"><img role="img"
+                                           alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE1Mi9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE2OTU5MDU4OTR9.A3jjhEqPmihM7OMxl6b8WAbJMhejzzap2T8zeWa-xf0/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
+                                           style="object-fit: cover;" class="rm-lazyloadable-image"
+                                           width="2000" height="1500" data-adjusted-src="true"></a>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-right col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <h2 class="widget__headline h2">
+                                              <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                                 href="https://www.rebelmouse.com/"
+                                                 aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                                 data-type="text">
+                                              2021 - Reliabilityweb.com Certified Maintenance Manager
+                                              (CMM) Workshops
+                                              </a>
+                                           </h2>
+                                           <div class="widget__subheadline">
+                                              <h3 class="widget__subheadline-text h3" data-type="text">
+                                                 <p>Conference</p>
+                                              </h3>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <script type="application/json" id="post-context-2659626045"
+                                     class="post-context post-context-2659626045">
+                                     {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
+                                  </script>
+                               </article>
+                            </div>
+                            <div class="widget post-section--events" elid="2659626046" data-category="Events">
+                               <article elid="2659626046" data-frozen-sections="[]"
+                                  class="clearfix page-article sm-mb-1 quality-SD post-2659626046">
+                                  <div class="row px10">
+                                     <div class="rm-col-left col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <div class="custom-field-custom-field-event-date">January 1 2021
+                                              - December 31 2021
+                                           </div>
+                                           <div class="custom-field-custom-fieldlocation">Marco Island,
+                                              Florida, USA
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-center col sm-mb-1"
+                                        style="width:33.333333333333336%;">
+                                        <div class="widget__head"><a
+                                           href="https://www.rebelmouse.com/"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           class="rm-stats-tracked"><img role="img"
+                                           alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0Ny9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE2OTQ5NTQ0OTl9.W_YFPQn6XhlNTphcqstrjkns3t053EmYJG6SKlDejSc/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
+                                           style="object-fit: cover;" class="rm-lazyloadable-image"
+                                           width="2000" height="1500" data-adjusted-src="true"></a>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-right col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <h2 class="widget__headline h2">
+                                              <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                                 href="https://www.rebelmouse.com/"
+                                                 aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                                 data-type="text">
+                                              2021 - Reliabilityweb.com Certified Maintenance Manager
+                                              (CMM) Workshops
+                                              </a>
+                                           </h2>
+                                           <div class="widget__subheadline">
+                                              <h3 class="widget__subheadline-text h3" data-type="text">
+                                                 <p>Conference</p>
+                                              </h3>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <script type="application/json" id="post-context-2659626046"
+                                     class="post-context post-context-2659626046">
+                                     {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
+                                  </script>
+                               </article>
+                            </div>
+                            <div class="widget post-section--events" elid="2659626047" data-category="Events">
+                               <article elid="2659626047" data-frozen-sections="[]"
+                                  class="clearfix page-article sm-mb-1 quality-SD post-2659626047">
+                                  <div class="row px10">
+                                     <div class="rm-col-left col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <div class="custom-field-custom-field-event-date">January 1 2021
+                                              - December 31 2021
+                                           </div>
+                                           <div class="custom-field-custom-fieldlocation">Marco Island,
+                                              Florida, USA
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-center col sm-mb-1"
+                                        style="width:33.333333333333336%;">
+                                        <div class="widget__head"><a
+                                           href="https://www.rebelmouse.com/"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           class="rm-stats-tracked"><img role="img"
+                                           alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0NS9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE3MzE3MTUxNDR9.ZaR_wjgkq7lis4H8q9MvmzF8Wz1WihBWyOGHN0Cwp_U/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
+                                           style="object-fit: cover;" class="rm-lazyloadable-image"
+                                           width="2000" height="1500" data-adjusted-src="true"></a>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-right col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <h2 class="widget__headline h2">
+                                              <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                                 href="https://www.rebelmouse.com/"
+                                                 aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                                 data-type="text">
+                                              2021 - Reliabilityweb.com Certified Maintenance Manager
+                                              (CMM) Workshops
+                                              </a>
+                                           </h2>
+                                           <div class="widget__subheadline">
+                                              <h3 class="widget__subheadline-text h3" data-type="text">
+                                                 <p>Conference</p>
+                                              </h3>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <script type="application/json" id="post-context-2659626047"
+                                     class="post-context post-context-2659626047">
+                                     {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
+                                  </script>
+                               </article>
+                            </div>
+                            <div class="widget post-section--events" elid="2659626048" data-category="Events">
+                               <article elid="2659626048" data-frozen-sections="[]"
+                                  class="clearfix page-article sm-mb-1 quality-SD post-2659626048">
+                                  <div class="row px10">
+                                     <div class="rm-col-left col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <div class="custom-field-custom-field-event-date">January 1 2021
+                                              - December 31 2021
+                                           </div>
+                                           <div class="custom-field-custom-fieldlocation">Marco Island,
+                                              Florida, USA
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-center col sm-mb-1"
+                                        style="width:33.333333333333336%;">
+                                        <div class="widget__head"><a
+                                           href="https://www.rebelmouse.com/"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           class="rm-stats-tracked"><img role="img"
+                                           alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0NC9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE2ODM4NjM1MDF9.S9kqtmZWbn0volQtVWSOS1LbRxWYW5kkfgutZILw_Dw/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
+                                           style="object-fit: cover;" class="rm-lazyloadable-image"
+                                           width="2000" height="1500" data-adjusted-src="true"></a>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-right col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <h2 class="widget__headline h2">
+                                              <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                                 href="https://www.rebelmouse.com/"
+                                                 aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                                 data-type="text">
+                                              2021 - Reliabilityweb.com Certified Maintenance Manager
+                                              (CMM) Workshops
+                                              </a>
+                                           </h2>
+                                           <div class="widget__subheadline">
+                                              <h3 class="widget__subheadline-text h3" data-type="text">
+                                                 <p>Conference</p>
+                                              </h3>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <script type="application/json" id="post-context-2659626048"
+                                     class="post-context post-context-2659626048">
+                                     {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
+                                  </script>
+                               </article>
+                            </div>
+                            <div class="widget post-section--events" elid="2659626049" data-category="Events">
+                               <article elid="2659626049" data-frozen-sections="[]"
+                                  class="clearfix page-article sm-mb-1 quality-SD post-2659626049">
+                                  <div class="row px10">
+                                     <div class="rm-col-left col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <div class="custom-field-custom-field-event-date">January 1 2021
+                                              - December 31 2021
+                                           </div>
+                                           <div class="custom-field-custom-fieldlocation">Marco Island,
+                                              Florida, USA
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-center col sm-mb-1"
+                                        style="width:33.333333333333336%;">
+                                        <div class="widget__head"><a
+                                           href="https://www.rebelmouse.com/"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           class="rm-stats-tracked"><img role="img"
+                                           alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMyNDIxNy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY4NzY5OTM5MH0.eHcbnM1remJLNh1IdX1ZCj5ozT3YHsb6QMG6q6bez6s/img.jpg?width=930&amp;height=696&amp;quality=80&amp;coordinates=357%2C0%2C251%2C0"
+                                           style="object-fit: cover;" class="rm-lazyloadable-image"
+                                           width="2000" height="1500" data-adjusted-src="true"></a>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-right col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <h2 class="widget__headline h2">
+                                              <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                                 href="https://www.rebelmouse.com/"
+                                                 aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                                 data-type="text">
+                                              2021 - Reliabilityweb.com Certified Maintenance Manager
+                                              (CMM) Workshops
+                                              </a>
+                                           </h2>
+                                           <div class="widget__subheadline">
+                                              <h3 class="widget__subheadline-text h3" data-type="text">
+                                                 <p>Conference</p>
+                                              </h3>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <script type="application/json" id="post-context-2659626049"
+                                     class="post-context post-context-2659626049">
+                                     {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
+                                  </script>
+                               </article>
+                            </div>
+                            <div class="widget post-section--events" elid="2659626050" data-category="Events">
+                               <article elid="2659626050" data-frozen-sections="[]"
+                                  class="clearfix page-article sm-mb-1 quality-SD post-2659626050">
+                                  <div class="row px10">
+                                     <div class="rm-col-left col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <div class="custom-field-custom-field-event-date">January 1 2021
+                                              - December 31 2021
+                                           </div>
+                                           <div class="custom-field-custom-fieldlocation">Marco Island,
+                                              Florida, USA
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-center col sm-mb-1"
+                                        style="width:33.333333333333336%;">
+                                        <div class="widget__head"><a
+                                           href="https://www.rebelmouse.com/"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           class="rm-stats-tracked"><img role="img"
+                                           alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0My9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE3MDQ0MDg3MjV9.UskDqIkf0uyx7Y8t6kYQD_hSP12esxu8vF71dxbqw6w/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
+                                           style="object-fit: cover;" class="rm-lazyloadable-image"
+                                           width="2000" height="1500" data-adjusted-src="true"></a>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-right col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <h2 class="widget__headline h2">
+                                              <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                                 href="https://www.rebelmouse.com/"
+                                                 aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                                 data-type="text">
+                                              2021 - Reliabilityweb.com Certified Maintenance Manager
+                                              (CMM) Workshops
+                                              </a>
+                                           </h2>
+                                           <div class="widget__subheadline">
+                                              <h3 class="widget__subheadline-text h3" data-type="text">
+                                                 <p>Conference</p>
+                                              </h3>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <script type="application/json" id="post-context-2659626050"
+                                     class="post-context post-context-2659626050">
+                                     {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
+                                  </script>
+                               </article>
+                            </div>
+                            <div class="widget post-section--events" elid="2659626051" data-category="Events">
+                               <article elid="2659626051" data-frozen-sections="[]"
+                                  class="clearfix page-article sm-mb-1 quality-SD post-2659626051">
+                                  <div class="row px10">
+                                     <div class="rm-col-left col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <div class="custom-field-custom-field-event-date">January 1 2021
+                                              - December 31 2021
+                                           </div>
+                                           <div class="custom-field-custom-fieldlocation">Marco Island,
+                                              Florida, USA
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-center col sm-mb-1"
+                                        style="width:33.333333333333336%;">
+                                        <div class="widget__head"><a
+                                           href="https://www.rebelmouse.com/"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           class="rm-stats-tracked"><img role="img"
+                                           alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjE0Mi9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE2OTcyMDMyMTZ9.oQ0WX-WGpzU6uM7jRiKJulAwbRaaEDEwxkP0K-DMb2o/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
+                                           style="object-fit: cover;" class="rm-lazyloadable-image"
+                                           width="2000" height="1500" data-adjusted-src="true"></a>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-right col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <h2 class="widget__headline h2">
+                                              <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                                 href="https://www.rebelmouse.com/"
+                                                 aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                                 data-type="text">
+                                              2021 - Reliabilityweb.com Certified Maintenance Manager
+                                              (CMM) Workshops
+                                              </a>
+                                           </h2>
+                                           <div class="widget__subheadline">
+                                              <h3 class="widget__subheadline-text h3" data-type="text">
+                                                 <p>Conference</p>
+                                              </h3>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <script type="application/json" id="post-context-2659626051"
+                                     class="post-context post-context-2659626051">
+                                     {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
+                                  </script>
+                               </article>
+                            </div>
+                            <div class="widget post-section--events" elid="2659626001" data-category="Events">
+                               <article elid="2659626001" data-frozen-sections="[]"
+                                  class="clearfix page-article sm-mb-1 quality-SD post-2659626001">
+                                  <div class="row px10">
+                                     <div class="rm-col-left col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <div class="custom-field-custom-field-event-date">January 1 2021
+                                              - December 31 2021
+                                           </div>
+                                           <div class="custom-field-custom-fieldlocation">Marco Island,
+                                              Florida, USA
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-center col sm-mb-1"
+                                        style="width:33.333333333333336%;">
+                                        <div class="widget__head"><a
+                                           href="https://www.rebelmouse.com/"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           class="rm-stats-tracked"><img role="img"
+                                           alt="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                           src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMzMjEzOC9vcmlnaW4ud2VicCIsImV4cGlyZXNfYXQiOjE3MzExNDgwMjJ9.JT1OMJRa9ApRnKFkdpoxpeOQlOmr5MPUoEJpTDAZX8U/img.webp?width=930&amp;height=696&amp;quality=80&amp;coordinates=155%2C0%2C156%2C0"
+                                           style="object-fit: cover;" class="rm-lazyloadable-image"
+                                           width="2000" height="1500" data-adjusted-src="true"></a>
+                                        </div>
+                                     </div>
+                                     <div class="rm-col-right col" style="width:33.33333333333333%;">
+                                        <div class="widget__body clearfix sm-mt-1">
+                                           <h2 class="widget__headline h2">
+                                              <a class="widget__headline-text custom-post-headline rm-stats-tracked"
+                                                 href="https://www.rebelmouse.com/"
+                                                 aria-label="2021 - Reliabilityweb.com Certified Maintenance Manager (CMM) Workshops"
+                                                 data-type="text">
+                                              2021 - Reliabilityweb.com Certified Maintenance Manager
+                                              (CMM) Workshops
+                                              </a>
+                                           </h2>
+                                           <div class="widget__subheadline">
+                                              <h3 class="widget__subheadline-text h3" data-type="text">
+                                                 <p>Conference</p>
+                                              </h3>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <script type="application/json" id="post-context-2659626001"
+                                     class="post-context post-context-2659626001">
+                                     {"customDimensions": {}, "post": {"split_testing": {}, "providerId": 0, "sections": [0, 599716013], "buckets": [], "authors": [25262696]} }
+                                  </script>
+                               </article>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <span class="js-brick-description hidden" data-name="Side Bar"></span>
+                <div class="sidebar-wrapper" id="sSide_Bar_0_0_7_0_0_0"><a id="sSide_Bar_0_0_7_0_0_0_0"
+                   class="display-block image-element">
+                   <img class="image-element__img" alt="" width="450" height="375"
+                      src="https://sebastian.rebelmouse.dev/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzMyNDE5Mi9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTcyODk2NTk4NX0.X9wi7rfRoo96ktIhpO552g0VJO6JbVd3AVss45-EqVU/image.png?width=450&amp;height=375">
+                   </a>
+                </div>
+             </div>
+          </div>
+       </div>
     </div>
-
-
-</body>
+ </body>
 
 </html>
