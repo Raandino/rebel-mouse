@@ -48,5 +48,5 @@ A demo video showcasing the implementation and user interactions can be found [h
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/rebelmouse-technical-test.git
+   git clone https://github.com/Raandino/rebelmouse.git
    cd rebelmouse-technical-test
