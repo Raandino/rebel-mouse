@@ -49,4 +49,4 @@ A demo video showcasing the implementation and user interactions can be found [h
 1. Clone the repository:
    ```bash
    git clone https://github.com/Raandino/rebelmouse.git
-   cd rebelmouse-technical-test
+   cd rebelmouse
