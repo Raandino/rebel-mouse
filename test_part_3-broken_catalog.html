@@ -12,42 +12,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Debugging Test - Part 3</title>
-    <script type="text/javascript">
-        let productsDisplayed = 0;
-        const cleanRecords = () => {
-            const nodes = document.querySelectorAll('#furniture-list > div');
-            for (let index = 0; index < nodes.length; index++) {
-                const node = nodes[index];
-                node.className="hidden";                
-            }
-        }
-
-        const filterRecords = (filterValue) => {
-            const nodes = document.querySelectorAll('#furniture-list > div');
-            productsDisplayed = 0;
-            for (let index = 1; index < nodes.length; index++) {
-                const node = nodes[index];
-                productsDisplayed++;
-                if (node.dataset.altname.includes(filterValue)) {
-                    node.className="";
-                }                
-            }
-            
-        }
-
-        // Function to filter furniture values
-        const filterFurniture = () => {
-            cleanRecords();
-            const inputFilter = document.getElementById("myInput");
-            const filterValue = inputFilter.value?.trim() ?? '';
-            filterRecords(filterValue);
-            checkEmptyList();
-        }
-
-        const checkEmptyList = () => {
-            document.querySelector('#empty-list-message').className = productsDisplayed > 0 ? "hidden" : "hidden";
-        } 
-    </script>
 </head>
 
 <body>
@@ -221,7 +185,42 @@
     </div>
 
 
+    <script>
+        let productsDisplayed = 0;
+        const cleanRecords = () => {
+            const nodes = document.querySelectorAll('#furniture-list > div');
+            for (let index = 0; index < nodes.length; index++) {
+                const node = nodes[index];
+                node.className="hidden";                
+            }
+        }
 
+        const filterRecords = (filterValue) => {
+            const nodes = document.querySelectorAll('#furniture-list > div');
+            productsDisplayed = 0;
+            for (let index = 1; index < nodes.length; index++) {
+                const node = nodes[index];
+                productsDisplayed++;
+                if (node.dataset.altname.includes(filterValue)) {
+                    node.className="";
+                }                
+            }
+            
+        }
+
+        // Function to filter furniture values
+        const filterFurniture = () => {
+            cleanRecords();
+            const inputFilter = document.getElementById("myInput");
+            const filterValue = inputFilter.value?.trim() ?? '';
+            filterRecords(filterValue);
+            checkEmptyList();
+        }
+
+        const checkEmptyList = () => {
+            document.querySelector('#empty-list-message').className = productsDisplayed > 0 ? "hidden" : "hidden";
+        } 
+    </script>
 </body>
 
 </html>
