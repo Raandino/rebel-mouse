@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNzcwNDczOC9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTczMzcyMTQ0Mn0.19VNyGLtQdNrc3sDnjhf0VCBT5CGBHZv6GVgLmr95dk/img.png?width=48&height=48" sizes="48x48"/>
+    <title>Product Catalog</title>
+
+    <style>
+       .background-grid {
+        position: absolute;
+        inset: 0;
+        z-index: -10;
+        height: 100%;
+        width: 100%;
+        background: white;
+        background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+        background-size: 16px 16px;
+        }
+        .catalog {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .catalog__title {
+            text-align: center;
+        }
+
+        .catalog__product-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .product {
+            height: 200px;
+            max-width: 400px;
+            width: 100%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            background: #e0e0e0;
+            box-shadow:  8px 8px 13px #bebebe;
+            overflow: hidden;
+        }
+
+        .product__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        .catalog__loader {
+            display: none;
+            text-align: center;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        .catalog__load-more {
+            display: none;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: linear-gradient(180deg, #3591da 1.56%, #1182db 83.33%);
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .catalog__load-more:hover {
+            background-color: #0056b3;
+        }
+
+        .loader {
+            width: 48px;
+            height: 48px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-grid"></div>
+    <div class="catalog">
+        <h1 class="catalog__title">Product Catalog</h1>
+        <div class="catalog__loader">
+            <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNzcwNDczOC9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTczMzcyMTQ0Mn0.19VNyGLtQdNrc3sDnjhf0VCBT5CGBHZv6GVgLmr95dk/img.png?width=48&height=48" alt="Loading..." class="loader">
+        </div>
+        <div class="catalog__product-list"></div>
+        <button class="catalog__load-more" onclick="loadMoreProducts()">Load More</button>
+    </div>
+
+    <script>
+        const apiUrl = 'https://moravac.rebelmouse.dev/r/kappa/api/v2/reader/furniture?api_key=xasE@fefscVSgb214r';
+
+        const productList = document.querySelector('.catalog__product-list');
+        const loadMoreButton = document.querySelector('.catalog__load-more');
+        const loader = document.querySelector('.catalog__loader');
+
+        const allProducts = [];
+        let currentIndex = 0;
+        const productsPerLoad = 5;
+
+
+        const fetchProducts = async()=>{
+            loader.style.display = 'block';
+
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                allProducts.push(...data.data);
+                loader.style.display = 'none';
+
+                if (allProducts.length) {
+                    loadMoreProducts();
+                }
+
+                if (allProducts.length === 0) {
+                    loader.textContent = 'No products found.';
+                    return;
+                }
+
+            } catch (error) {
+                console.error('Error fetching products:', error);
+                loader.textContent = 'Error loading products.';
+            }
+        }
+        const loadMoreProducts = () => {
+            const endIndex = Math.min(currentIndex + productsPerLoad, allProducts.length);
+
+            allProducts.slice(currentIndex, endIndex).forEach((product) => {
+                const productElement = document.createElement('article');
+
+                productElement.className = 'product';
+                productElement.innerHTML = `
+                    <img class="product__image" src="${product.image.size_980}" alt="${product.name}">
+                `;
+                productList.appendChild(productElement);
+            });
+
+            currentIndex = endIndex;
+            loadMoreButton.style.display = currentIndex < allProducts.length ? 'block' : 'none';
+        };
+
+        fetchProducts();
+    </script>
+</body>
+</html>
